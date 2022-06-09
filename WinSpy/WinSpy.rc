@@ -195,7 +195,7 @@ IDI_WINDOW_NOTEXT       ICON                    "res\\window-notext.ico"
 
 IDI_WINDOW_MINIMIZE     ICON                    "res\\Minimize.ico"
 
-IDI_WINDOW_SENDTOBACK   ICON                    "D:\\Dev\\WinSpy\\WinSpy\\res\\WindowSendToBack.ico"
+IDI_WINDOW_SENDTOBACK   ICON                    "res\\WindowSendToBack.ico"
 
 IDI_TARGET              ICON                    "res\\Target.ico"
 
@@ -227,7 +227,7 @@ CAPTION "About WinSpy"
 FONT 9, "Segoe UI", 0, 0, 0x0
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,70,64,48,14
-    CTEXT           "WinSpy v0.2\n\n©2020-2021 Pavel Yosifovich",IDC_STATIC,46,14,103,32
+    CTEXT           "WinSpy v0.2\n\n?020-2021 Pavel Yosifovich",IDC_STATIC,46,14,103,32
     ICON            IDR_MAINFRAME,IDC_STATIC,6,6,20,20
 END
 
@@ -420,7 +420,7 @@ BEGIN
             VALUE "FileDescription", "WinSpy - Examine Windows Propertiea and Messages"
             VALUE "FileVersion", "0.2.0.0"
             VALUE "InternalName", "WinSpy"
-            VALUE "LegalCopyright", "©2021 Pavel Yosifovich"
+            VALUE "LegalCopyright", "?021 Pavel Yosifovich"
             VALUE "OriginalFilename", "WinSpy.exe"
             VALUE "ProductName", "WinSpy v0.2"
             VALUE "ProductVersion", "0.2.0.0"
