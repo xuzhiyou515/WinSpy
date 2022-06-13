@@ -116,7 +116,9 @@ struct CVirtualListView {
 			LVHITTESTINFO info{};
 			info.pt = pt;
 			lv.SubItemHitTest(&info);
-			handled = pT->OnRightClickList(lv, info.iItem, info.iSubItem, pt2);
+			if (info.iItem >= 0) {
+				handled = pT->OnRightClickList(lv, info.iItem, info.iSubItem, pt2);
+			}
 		}
 		return 0;
 	}
